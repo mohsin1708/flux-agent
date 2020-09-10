@@ -12,6 +12,6 @@
        ports:
          - containerPort: 80
      - name: rss-reader
-       image: nickchase/rss-php-nginx:v1
+       image: nginx
        ports:
          - containerPort: 88
