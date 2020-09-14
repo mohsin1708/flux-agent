@@ -8,7 +8,7 @@
  spec:
    containers:
      - name: front-end
-       image: nginxdemos/hello
+       image: nginx/nginx-ingress
        ports:
          - containerPort: 80
      - name: rss-reader
