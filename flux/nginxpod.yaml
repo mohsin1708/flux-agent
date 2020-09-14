@@ -8,10 +8,10 @@
  spec:
    containers:
      - name: front-end
-       image: linuxserver/nginx
+       image: nginxdemos/nginx-hello
        ports:
          - containerPort: 80
      - name: rss-reader
-       image: nginx/nginx-ingress
+       image: bitnami/nginx
        ports:
          - containerPort: 88
