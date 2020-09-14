@@ -6,8 +6,8 @@ metadata:
     env: test
 spec:
   containers:
-  - name: nginx
-    image: nginx
+  - name: bitnami-nginx
+    image: bitnami/nginx
     imagePullPolicy: IfNotPresent
   nodeSelector:
     disktype: ssd
