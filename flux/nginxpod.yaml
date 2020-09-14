@@ -12,6 +12,6 @@
        ports:
          - containerPort: 80
      - name: rss-reader
-       image: centos/nginx-112-centos7
+       image: nginxdemos/hello
        ports:
          - containerPort: 88
